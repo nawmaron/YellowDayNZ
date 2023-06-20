@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Yellow Day: El día más feliz del año</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+    body {
+      background-color: #FFED86;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 30px;
+      opacity: 0;
+      animation: fadeIn 1s ease forwards;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    p {
+      color: #cda044;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #FFC107;
+      color: #FFFFFF;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #FFA000;
+    }
+
+    .gif {
+      max-width: 400px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      border-radius: 10px;
+    }
+
+    .banner {
+      background-color: #333333;
+      color: #FFFFFF;
+      padding: 10px;
+      font-size: 14px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .footer-text {
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Yellow Day: El día más feliz del año</h1>
+    <p>El camino hacia el éxito profesional puede presentar desafíos y obstáculos, pero recuerda que cada dificultad es una oportunidad para crecer y superarte</p>
+    <img src="https://media1.giphy.com/media/3oFzmq0tXV2tYMbWfe/giphy.gif?cid=ecf05e47jftsenapwl67raaxtbpgtlqhb1w28rnqwaz5hw3w&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Yellow Day GIF" class="gif">
+    <a href="https://www.linkedin.com/in/nawalzahri/" class="btn">Conéctate conmigo</a>
+  </div>
+  
+  <div class="banner">
+    <p class="footer-text">Nawal Zahri © 2023</p>
+  </div>
+</body>
+</html>
