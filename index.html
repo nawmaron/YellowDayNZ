@@ -63,7 +63,8 @@
     }
 
     .gif {
-      max-width: 400px;
+      max-width: 100%;
+      height: auto;
       margin-top: 40px;
       margin-bottom: 40px;
       border-radius: 10px;
@@ -83,6 +84,18 @@
     .footer-text {
       font-size: 12px;
     }
+
+    @media only screen and (max-width: 600px) {
+      h1 {
+        font-size: 36px;
+      }
+      p {
+        font-size: 18px;
+      }
+      .gif {
+        max-width: 80%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -95,6 +108,7 @@
   
   <div class="banner">
     <p class="footer-text">Nawal Zahri © 2023</p>
+
   </div>
 </body>
 </html>
